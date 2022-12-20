@@ -1,5 +1,5 @@
 .selectContainer {
-  padding-top: 80px;
+  padding-top: 120px;
   /* margin: auto;
     display: flex;
     width: 25%; */
@@ -20,4 +20,13 @@
   margin: auto;
   width: 100%;
   color: rgb(153, 0, 18);
+}
+
+.selectHeading {
+  position: fixed;
+  top: 60px;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  color: black;
 }

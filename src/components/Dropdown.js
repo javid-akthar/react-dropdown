@@ -33,6 +33,8 @@ function Dropdown(props) {
   function hide(val) {
     if (val === "select") {
       setShowList(false);
+      setSelectedValue(val);
+      setShowSelectedValue(false);
       return;
     }
     console.log(val);
@@ -71,6 +73,7 @@ function Dropdown(props) {
         </h4>
       ) : null}
       <div className={classes.selectContainer}>
+        <h4 className={classes.selectHeading}>select a value form dropdown</h4>
         <button className={classes.selectButton} onMouseOver={show}>
           {selectedValue}
         </button>
