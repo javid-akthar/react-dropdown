@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+## clone the project
+## give npm install this will download all the dependencies
+## give npm build  
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
