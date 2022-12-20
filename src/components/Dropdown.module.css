@@ -1,0 +1,24 @@
+.selectContainer{
+    padding-top: 80px;
+    /* margin: auto;
+    display: flex;
+    width: 25%; */
+
+}
+.selectButton{
+    margin: auto;
+    display: flex;
+    width: 25%;
+    height: 41px;
+    background-color: ghostwhite;
+    justify-content: center;
+    align-items: center;
+}
+.selectElementData{
+    position: fixed;
+    top: 30px;
+    text-align: center;
+    margin: auto;
+  width: 100%;
+  
+}
